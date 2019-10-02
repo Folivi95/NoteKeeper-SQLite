@@ -15,7 +15,7 @@ public final class NoteKeeperDatabaseContract implements BaseColumns {
 
         //CREATE INDEX course_info_index1 ON course_info (course_title)
         public static final String INDEX1 = TABLE_NAME + "_index1";
-        public static final String SQL_CREATE_INDEX1 = "CREATE INDEX" + INDEX1 + " ON " + TABLE_NAME + "(" + COLUMN_COURSE_TITLE + ")";
+        public static final String SQL_CREATE_INDEX1 = "CREATE INDEX " + INDEX1 + " ON " + TABLE_NAME + "(" + COLUMN_COURSE_TITLE + ")";
 
         public static final String getQName(String columnName){
             return TABLE_NAME + "." + columnName;
@@ -36,7 +36,7 @@ public final class NoteKeeperDatabaseContract implements BaseColumns {
         public static final String _ID = BaseColumns._ID;
 
         public static final String INDEX1 = TABLE_NAME + "_index1";
-        public static final String SQL_CREATE_INDEX1 = "CREATE INDEX" + INDEX1 + " ON " + TABLE_NAME + "(" + COLUMN_NOTE_TITLE + ")";
+        public static final String SQL_CREATE_INDEX1 = "CREATE INDEX " + INDEX1 + " ON " + TABLE_NAME + "(" + COLUMN_NOTE_TITLE + ")";
 
         public static final String getQName(String columnName){
             return TABLE_NAME + "." + columnName;
